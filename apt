@@ -1,0 +1,13 @@
+import subprocess
+
+def check_package(package_name):
+    try:
+        subprocess.check_output(["dpkg", "-l", package_name])
+        print(f"{package_name} встановлено на вашій системі.")
+    except subprocess.CalledProcessError:
+        print(f"{package_name} не знайдено на вашій системі.")
+
+if __name__ == "__main__":
+    packages_to_check = ["python3", "gcc", "git"]
+    for package in packages_to_check:
+        check_package(package)
