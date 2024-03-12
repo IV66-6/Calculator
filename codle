@@ -1,0 +1,39 @@
+MLAlgorithmsLibrary/
+│
+├── algorithms/
+│   ├── classification/
+│   │   ├── logistic_regression.py
+│   │   ├── decision_tree.py
+│   │   └── ...
+│   │
+│   ├── clustering/
+│   │   ├── k_means.py
+│   │   ├── hierarchical.py
+│   │   └── ...
+│   │
+│   ├── regression/
+│   │   ├── linear_regression.py
+│   │   ├── polynomial_regression.py
+│   │   └── ...
+│   │
+│   └── ...
+│
+├── examples/
+│   ├── classification_example.py
+│   ├── clustering_example.py
+│   ├── regression_example.py
+│   └── ...
+│
+├── tests/
+│   ├── test_classification.py
+│   ├── test_clustering.py
+│   ├── test_regression.py
+│   └── ...
+│
+├── docs/
+│   ├── algorithm_documentation.md
+│   └── ...
+│
+├── README.md
+├── LICENSE
+└── ...
