@@ -1,3 +1,4 @@
+
 MLAlgorithmsLibrary/
 │
 ├── algorithms/
@@ -37,3 +38,10 @@ MLAlgorithmsLibrary/
 ├── README.md
 ├── LICENSE
 └── ...
+# https://tea.xyz/what-is-this-file
+---
+version: 1.0.0
+codeOwners:
+  - '0x1fB148707599193fF6A5b231d556bAb0F7b6b3A0'
+quorum: 1
+
